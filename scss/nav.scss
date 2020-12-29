@@ -1,0 +1,32 @@
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    color: orangered;
+    list-style-type:none;
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin-bottom: 20px;
+
+    li {
+        margin: 0 8px;
+        padding: 5px ;
+
+        transition: 1s;
+
+        &:hover {
+            transform: scale(1.1,1);  
+        }
+        
+        a {
+            color: #000000;
+            text-decoration: none;
+
+            &:hover {
+                color: #ff6f61;  
+            }
+        }
+    }
+}

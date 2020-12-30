@@ -1,0 +1,24 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "Este repositorio será usado para la entrega de los desafios del curso de **Desarrollo Web** de **CoderHouse**",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:compile": "node-sass --include-path sass ./scss/styles2.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micuherrera/coderhouse-final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micuherrera/coderhouse-final/issues"
+  },
+  "homepage": "https://github.com/micuherrera/coderhouse-final#readme"
+}

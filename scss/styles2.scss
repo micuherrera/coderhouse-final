@@ -1,0 +1,32 @@
+@import "footer";
+@import "form";
+@import "nav";
+
+@mixin center-content() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    width: 100%;
+    min-height: 80px;
+
+    @include center-content();
+    flex-direction: row;
+
+    .socialIcons {
+        font-size: 2.7rem;
+        margin-left: 15px;
+        margin-right: 15px;
+        color: #ff6f61;
+    }
+}
+
+
+.aboutMe {
+    @include center-content();
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 80vh;
+}

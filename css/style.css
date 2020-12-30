@@ -1,5 +1,5 @@
 body {
-    background-color:  #FFFFFF;
+    background-color: #FFFFFF;
     text-align: center;
 }
 
@@ -13,7 +13,7 @@ body {
 
 .rounded-image {
     border-radius: 50%;
-    
+
     width: 50%;
     height: auto;
 
@@ -26,8 +26,8 @@ body {
 }
 
 .list-title {
-    color:#ff6f61;
-    font-family: 'Poppins' sans-serif;
+    color: #ff6f61;
+    font-family: 'Poppins'sans-serif;
     list-style-type: none;
     font-size: 20px;
 }
@@ -56,37 +56,11 @@ nav {
     height: auto;
 }
 
-.aboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.aboutMe {
-    min-height: 80vh;
-}
-
-.social {
-    width: 100%;
-    min-height: 80px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.socialIcons {
-    font-size: 2.7rem;
-    margin-left: 15px;
-    margin-right: 15px;
-    color: #ff6f61;  
-}
-
 @media (max-width: 768px) {
     .navbar-nav {
         display: none;
     }
+
     .dropdown {
         display: flex;
     }

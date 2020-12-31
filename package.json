@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass:compile": "sass --watch ./scss/styles2.scss ./css/style2.css"
+    "sass:compile": "ssass --watch ./scss/styles2.scss ./css/style2.css"
   },
   "repository": {
     "type": "git",

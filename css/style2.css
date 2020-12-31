@@ -39,6 +39,7 @@ form .formItem:focus {
   margin: 0 8px;
   padding: 5px;
   transition: 1s;
+  font-size: 1.1rem;
 }
 .nav-list li:hover {
   transform: scale(1.1, 1);

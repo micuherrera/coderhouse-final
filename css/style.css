@@ -59,6 +59,10 @@ nav {
     display: none;
 }
 
+.dropdown-menu {
+    left: -50px;
+}
+
 .services {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -107,7 +111,7 @@ nav {
 
 .section {
     width: 50%;
-    height: 80vh;
+    min-height: 80vh;
 }
 
 .section-left {
@@ -193,5 +197,18 @@ nav {
     .services {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 1fr);
+    }
+
+    .home-page,
+    .aboutMe {
+        flex-direction: column;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .section-right .img-container .vertical-img {
+        width: 100%;
     }
 }

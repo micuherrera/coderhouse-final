@@ -6,9 +6,14 @@ body {
 .title {
     color: #ff6f61;
 
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 200%;
     margin-left: 20px;
+}
+
+.black {
+    color: black;
+    font-weight: bold;
 }
 
 .rounded-image {
@@ -19,17 +24,25 @@ body {
 
 }
 
-
 .paragraph {
     color: black;
     font-family: 'Poppins', sans-serif;
 }
+
+.faq-container,
+.course-info-container {
+    width: 60%;
+    margin: auto;
+}
+
+
 
 .list-title {
     color: #ff6f61;
     font-family: 'Poppins'sans-serif;
     list-style-type: none;
     font-size: 20px;
+
 }
 
 nav {
@@ -54,6 +67,91 @@ nav {
 .servicesItems img {
     width: 100%;
     height: auto;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.aboutMe {
+    min-height: 80vh;
+}
+
+.social {
+    width: 100%;
+    min-height: 80px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIcons {
+    font-size: 2.7rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #ff6f61;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section {
+    width: 50%;
+    height: 80vh;
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-right .img-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.section-right .img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    border: 5px solid black;
+    padding: 60px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.box h1 {
+    font-size: 4.5rem;
+}
+
+.box p {
+    font-size: 2.5rem;
+}
+
+.navbar-home {
+    justify-content: flex-end !important;
+    padding-right: 10%;
 }
 
 @media (max-width: 768px) {

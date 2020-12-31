@@ -1,12 +1,11 @@
 footer {
-  background: #a830f9;
-  background: linear-gradient(90deg, #a830f9 0%, #ffe0e0 100%);
+  background: white;
   width: 100%;
   padding: 10px;
   margin-top: 15px;
   bottom: 0;
-  color: white;
-  font-family: "Dancing Script", cursive;
+  color: black;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
 }
 

@@ -26,7 +26,7 @@
 
 .aboutMe {
     @include center-content();
-    flex-direction: column;
+    flex-direction: row∫;
     justify-content: flex-start;
     min-height: 80vh;
 }

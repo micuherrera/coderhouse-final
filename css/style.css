@@ -69,17 +69,6 @@ nav {
     height: auto;
 }
 
-.aboutMe {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.aboutMe {
-    min-height: 80vh;
-}
-
 .social {
     width: 100%;
     min-height: 80px;
@@ -115,6 +104,10 @@ nav {
     align-items: center;
 }
 
+.aboutMe .section-left {
+    padding-left: 5%;
+}
+
 .section-right {
     display: flex;
     flex-direction: column;
@@ -125,12 +118,19 @@ nav {
 .section-right .img-container {
     width: 100%;
     height: 100%;
+    display: flex;
 }
 
 
 .section-right .img-container img {
     width: 100%;
     height: auto;
+}
+
+.section-right .img-container .vertical-img {
+    width: auto;
+    height: 75%;
+    margin: auto;
 }
 
 .box {
